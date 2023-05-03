@@ -1,0 +1,387 @@
+/*Login page*/
+.div1{
+    border: 3px solid rgb(82, 82, 82);
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    height: 400px;
+    width:  300px;
+    box-shadow: 5px 5px 5px rgb(56, 57, 57);
+    border-radius: 20px;
+}  
+.form1{
+  height: 200px; 
+  width:  200px;
+  display: inline-block;
+}
+.input1{
+  border-radius: 7px;
+  border: 1px solid rgb(73, 65, 65);
+  font-family:system-ui, -apple-system;
+  height: 24px;
+  width: 195px;
+  font-weight:700;
+  color: rgb(43, 43, 43);
+  text-align: center;
+}
+.Heading{
+  font-size: 100px;  
+  color: rgb(233, 222, 222);
+  text-shadow: 5px 5px 5px rgb(19, 19, 19);
+  font-family:system-ui, system-ui, -apple-system;
+}
+
+/*SignUp page*/
+.signupForm{
+    border: 3px solid rgb(82, 82, 82);
+    padding-left: 30px;
+    padding-right: 25px;
+    background-color: rgb(228, 228, 228);
+    height: 575px;
+    width:  500px;
+    box-shadow: 5px 5px 5px rgb(56, 57, 57);
+    border-radius: 20px;
+}
+.other label{
+  width:270px;
+  display: inline-block;
+}
+.submitDiv{
+  text-align: center;
+}
+.haveAccDiv{
+  text-align: right;
+}
+.button4{
+  width: 54px;
+  height: 22px; 
+  font-family:system-ui, -apple-system;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border: 1.3px solid rgb(47, 47, 47);
+  border-radius: 8px;
+  transition-duration: '1s';
+  box-shadow: 2px 2px 2px rgb(37, 38, 38);
+  background-color:rgb(23, 77, 138);
+  color: #fff;
+}
+.button3:hover {
+  background-color: #797d00;  
+  box-shadow: 3px 3px 3px rgb(30, 28, 28);
+  color: white;
+}
+
+
+/*HomePage*/
+.menu{
+  border: solid rgb(28, 27, 27);
+  background-color: rgb(31, 29, 29);
+  border-radius: 20px;
+  height: 100px;
+  width: 490px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ;
+}
+.menu:hover{
+  border: 3px solid rgb(71, 67, 67);;
+}
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(58, 53, 53);
+  width: 500px;
+  height: 490px;
+  border-radius: 5px;
+  overflow-y: scroll; 
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.pics {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color:rgb(88, 72, 72);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.username {
+  font-size: 20px;  
+  color: rgb(233, 222, 222);
+  text-shadow: 0.5px 0.5px 0.5px rgb(19, 19, 19);
+  font-family:system-ui, system-ui, -apple-system;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.actions {
+  width: 158px;
+  height: 72px;
+  text-align: center;
+  background-color: rgb(50, 47, 47);
+  border: solid rgb(28, 27, 27);
+  border-radius: 20px;
+}
+
+.div3{
+  border: 2px solid rgb(35, 33, 33);
+  background-color: rgb(97, 85, 85);
+  border-radius: 15px;
+  height: 60px;
+  width: 550px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.div3:hover{
+  border: 1.8px solid rgb(147, 141, 141);
+}
+
+
+/* Chats*/
+.contacts{
+  border: 2.2px solid rgb(24, 24, 24);
+  background-color: rgb(81, 72, 72);
+  border-radius: 17px;
+  height: 400px;
+  width: 500px;
+  padding-left: 20px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.contacts::-webkit-scrollbar {
+  display: none;
+}
+.chat{
+  border: 2.2px solid rgb(24, 24 , 24);
+  background-color: rgb(81, 72, 72);
+  border-radius: 20px;
+  height: 470px;
+  width: 700px;
+}
+
+
+/*Upload/post page*/
+.fileUpload{
+  background-color: rgb(66, 59, 59);  
+  width: 600px; 
+  height:300px;
+  border: solid rgb(28, 27, 27);
+  border-radius: 20px;
+  padding-top: 1.5%;
+  text-align: center;  
+}
+.button5{
+  width: 78px;
+  height: 35px; 
+  font-family:system-ui, -apple-system;
+  font-size: 19px;
+  text-align: center;
+  border: 1.3px solid rgb(47, 47, 47);
+  border-radius: 8px;
+  transition-duration: '1s';
+  box-shadow: 2px 2px 2px rgb(37, 38, 38);
+  background-color:rgb(23, 77, 138);
+  color: #fff;
+}
+.displayPic{ 
+  background-color: rgb(65, 54, 54);  
+  width: 350px;
+  height: 350px;
+  border: solid rgb(28, 27, 27);
+  border-radius: 10px;
+  text-align: center;  
+}
+.button5:hover {
+  background-color: #797d00;  
+  box-shadow: 3px 3px 3px rgb(30, 28, 28);
+  color: white;
+}
+
+
+
+/*Profile*/
+.pfp{
+  border: 1.5px solid rgb(24, 24 , 24);
+  background-color: rgb(81, 72, 72);
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+.pfpImg{
+  max-width: 100%;
+  height:auto;
+}
+.counts{
+  font-size: 23px;
+  margin: 1px; 
+  color: rgb(198, 185, 185);
+  text-align: center;
+  text-shadow: 0.2px 0.2px 0.2px rgba(97, 94, 94, 0.7);
+  font-family:system-ui, system-ui, -apple-system;
+}
+.posts{
+  border: 2.2px solid rgb(24, 24, 24);
+  background-color: rgb(81, 72, 72);
+  border-radius: 17px;
+  height: 470px;
+  width: 650px;
+}
+.portfolio{
+  border: 2.2px solid rgb(24, 24, 24);
+  background-color: rgb(81, 72, 72);
+  border-radius: 17px;
+  height: 470px;
+  width: 300px;
+}
+
+/*Settings*/
+.input3{
+  border-radius: 7px;
+  border: 1px solid rgb(73, 65, 65);
+  font-family:system-ui, -apple-system;
+  height: 100px;
+  width: 195px;
+  font-weight:700;
+  color: rgb(43, 43, 43);
+}
+.chooseFile1{
+  width: 45px;
+  height: 30px; 
+  font-family:system-ui, -apple-system;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border: 1.3px solid rgb(47, 47, 47);
+  border-radius: 8px;
+  transition-duration: '1s';
+  box-shadow: 2.5px 2.5px 2px rgb(37, 38, 38);
+  background-color:rgb(23, 77, 138);
+  color: #fff;
+}
+.chooseFile1:hover {
+  background-color: #797d00;  
+  box-shadow: 3.3px 3.3px 3px rgb(30, 28, 28);
+  color: white;
+}
+.button3{
+  width: 75px;
+  height: 32px; 
+  font-family:system-ui, -apple-system;
+  font-size: 17px;
+  text-align: center;
+  border: 1.3px solid rgb(47, 47, 47);
+  border-radius: 8px;
+  transition-duration: '1s';
+  box-shadow: 2px 2px 2px rgb(37, 38, 38);
+  background-color:rgb(23, 77, 138);
+  color: #fff;
+}
+.button3:hover {
+  background-color: #797d00;  
+  box-shadow: 3px 3px 3px rgb(30, 28, 28);
+  color: white;
+}
+
+
+/* Search Bar*/
+.input2{
+  background-color: rgb(88, 72, 72);
+  border: solid rgb(97, 85, 85);
+  border-radius: 15px;
+  font-family:system-ui, -apple-system;
+  font-size: 27px;
+  font-weight: bolder;
+  height: 53px;
+  width: 542px;
+  color: #ddd8d8;
+}
+
+.h1a{
+    font-size: 32px;  
+    color: rgb(192, 185, 185);
+    text-shadow: 0.5px 0.5px 0.5px rgba(72, 71, 71, 0.516);
+    font-family:system-ui, system-ui, -apple-system;
+}
+
+.h3a{
+  font-size: 30px;  
+  color: rgb(183, 171, 171);
+  text-shadow: 0.2px 0.2px 0.2px rgba(97, 96, 96,0.7);
+  font-family:system-ui, system-ui, -apple-system;
+}
+
+
+.button1{
+  width: 75px;
+  height: 32px; 
+  font-family:system-ui, -apple-system;
+  font-size: 17px;
+  text-align: center;
+  border: 1.3px solid rgb(47, 47, 47);
+  border-radius: 8px;
+  transition-duration: '1s';
+  box-shadow: 2px 2px 2px rgb(108, 114, 116);
+  background-color:rgb(23, 77, 138);
+  color: #fff;
+}
+.button1:hover {
+  background-color: #27612a;  
+  box-shadow: 3px 3px 3px rgb(108, 114, 116);
+  color: white;
+}
+
+.img1{
+  transition: transform 3s cubic-bezier() ;
+}
+
+.img1:hover{
+  transform: scale(1.1);
+}
+
+.img2{
+  transition: transform .7s ;
+}
+.img2:hover{
+  transform: rotate(60deg);
+}
+
+.img3{
+  transition: transform .7s ;
+}
+.img3:hover{
+  transform: rotate(25deg);
+}
+
+.start_chat{
+  width: 75px;
+  height: 32px; 
+  font-family:system-ui, -apple-system;
+  font-size: 19px;
+  text-align: center;
+  border: 1.3px solid rgb(47, 47, 47);
+  border-radius: 8px;
+  transition-duration: '1s';
+  font-weight: 600;
+  box-shadow: 1px 1px 1px rgb(42, 43, 43);
+  background-color:rgb(23, 77, 138);
+  color: #fff;
+  
+}
+.start_chat:hover {
+  background-color: #27612a;  
+  box-shadow: 1.5px 1.5px 1.5px rgb(31, 31, 31);
+  color: white;
+}
+

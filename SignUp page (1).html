@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SignUp-SomaiyaConnect</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body style="background-color: rgb(193, 191, 191);background-image: linear-gradient(to right, rgb(57, 38, 38), rgba(185, 82, 47, 0.7));">
+    <div style="display: flex; align-items: center; margin-top: 0px;">
+        <h1 class="h1a" style="font-style: italic;color: rgb(233, 222, 222);text-shadow: 1px 1px rgba(70, 68, 68, 0.7);margin-left: 38px;">SomaiyaConnect</h1>
+        <img src="graduate-hat.png" class="img3" style="padding:15px;height:43px; width:43px;filter: drop-shadow(0 0 0.08rem rgb(117, 120, 119));">
+    </div>
+    <div class="signupForm" style="margin-left:30%">
+        <form  style="margin-top:25px">
+            <section class="other">
+                <h1 class="counts" style="color:rgb(74, 58, 29);font-size:35px;margin-top:2px">Create Your account !</h1><br><br>
+                <label for="Name" class="h1a" style="color: rgb(32, 31, 31);font-weight:550;font-size: 23px;font-family: 'Courier New';">Name   </label>
+                <input type="text" class="input1"><br><br>
+                <label for="userName" class="h1a" style="color: rgb(32, 31, 31);font-weight:550;font-size: 23px;font-family: 'Courier New';">Create Username   </label>
+                <input type="text" class="input1"><br><br>
+
+                <label for="gender" class="h1a" style="color: rgb(32, 31, 31);font-weight:550;font-size: 23px;font-family: 'Courier New';">Gender   </label>
+                <form action="/action_page.php">
+                    <select id="gender" name="gender" class="input1 ">
+                        <option value="" class="input1"></option>
+                        <option value="male" class="input1">Male</option>
+                        <option value="female" class="input1">Female</option>
+                        <option value="other" class="input1">Other</option>
+                    </select>
+                    </form><br><br>
+
+                <label for="email" pattern="[a-z.]*[@]\somaiya.edu" 
+                class="h1a" style="color: rgb(32, 31, 31);font-weight:550;font-size: 23px;font-family: 'Courier New';">Email Id   </label>
+                <!-- domain must be somaiya.edu -->
+                <input type="text" class="input1"><br><br>
+                <label for="gradYear" class="h1a" style="color: rgb(32, 31, 31);font-weight:550;font-size: 23px;font-family: 'Courier New';">Year of graduation   </label>
+                <input type="number" min="1987" max="2026" class="input1"><br><br>
+                <label for="branch" class="h1a" style="color: rgb(32, 31, 31);font-weight:550;font-size: 23px;font-family: 'Courier New';">Branch   </label>
+                <input type="text" class="input1"><br><br>
+                <label for="crtpwd" class="h1a" name="password" style="color: rgb(32, 31, 31);font-weight:550;font-size: 23px;font-family:  'Courier New';">Create Password   </label>
+                
+                <input type="text" 
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one number, one uppercase and  one lowercase letter, and at least 8 or more characters" 
+                class="input1"><br><br>
+
+                <label for="cnfrmpwd" class="h1a" name = 'confirm_password'style="color: rgb(32, 31, 31);font-weight:550;font-size: 23px;font-family:  'Courier New';">Confirm Password   </label>
+                <input type="text" class="input1"><br><br>
+            </section>
+            <div class="submitDiv">
+            <button type="submit" value="SignUp" class="button1" name="register" style="font-weight:700;" >SignUp</button><br><br>
+            </div>
+        </form> 
+        <div class="haveAccDiv">
+            <a href="http://127.0.0.1:5500/Login%20page.html?" style="font-size: 17px;font-family:system-ui, -apple-system;">Already have an Account?</href>
+        </div>
+    </div>
+</body>
+</html>
